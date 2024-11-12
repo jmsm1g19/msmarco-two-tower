@@ -12,8 +12,8 @@ DB_PATH = "msmarco_dataset.db"
 INDEX_PATH = "faiss_index_hnsw.bin"
 PASSAGE_IDS_PATH = "passage_ids.npy"
 PROGRESS_PATH = "index_progress.txt"
-BATCH_SIZE = 4096
-MODEL_NAME = "sentence-transformers/paraphrase-MiniLM-L6-v2"
+BATCH_SIZE = 1024
+MODEL_NAME = "sentence-transformers/paraphrase-albert-small-v2"
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
